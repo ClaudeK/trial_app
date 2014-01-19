@@ -77,4 +77,7 @@ TrialApp::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  # LINE FORCING USE OF SSL IN PRODUCTION
+  config.force_ssl = true
 end
