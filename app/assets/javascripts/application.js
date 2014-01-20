@@ -14,3 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+// ADDING BOOTSTRAP JAVASCRIPT LIBRARY TO application.js
+//= require bootstrap
